@@ -21,6 +21,5 @@ curl -XGET localhost:5000/items/1
 
 Tests:
 ```
-python -m unittest
-python3 -m unittest
+python -m tests.test_item
 ```
