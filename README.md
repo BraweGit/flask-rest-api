@@ -2,9 +2,7 @@
 
 Simple REST API written with Flask-RESTful, Flask-SQLAlchemy and marshmallow.
 
-**
-Example endpoints:
-**
+**Example endpoints:**
 
 Add Item:
 ```
