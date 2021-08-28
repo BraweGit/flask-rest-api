@@ -6,7 +6,7 @@ Simple REST API written with Flask-RESTful, Flask-SQLAlchemy and marshmallow.
 
 Add Item:
 ```
-curl -d '{"name" : "curlname", "description" : "curldescription"}' -H "Content-Type: application/json" -X POST localhost:5000/items
+curl -XPOST -d '{"name" : "curlname", "description" : "curldescription"}' -H "Content-Type: application/json" localhost:5000/items
 ```
 
 Get Items:
