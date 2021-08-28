@@ -4,14 +4,20 @@ Simple REST API written with Flask-RESTful, Flask-SQLAlchemy and marshmallow.
 
 Example endpoints:
 
-Add Item
+Add Item:
+```
 curl -d '{"name" : "curlname", "description" : "curldescription"}' -H "Content-Type: application/json" -X POST localhost:5000/items
+```
 
-Get Items
+Get Items:
+```
 curl -XGET localhost:5000/items
+```
 
-Get Item
+Get Item:
+```
 curl -XGET localhost:5000/items/1
+```
 
 Tests:
 ```
